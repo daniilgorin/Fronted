@@ -1,6 +1,6 @@
 body {
     background-color: rosybrown;
-    margin: 0; /* Убираем отступы */
+    margin: 0; 
 }
 
 .content {
@@ -9,7 +9,7 @@ body {
 }
 
 .content-left {
-    width: 60%; /* Ширина левой части */
+    width: 60%; 
     background-color: white;
     padding: 15px;
     border-radius: 8px;
@@ -17,9 +17,9 @@ body {
 }
 
 .content-right {
-    width: 30%; /* Ширина правой части */
+    width: 30%; 
     display: inline-block;
-    vertical-align: top; /* Выравнивание элементов по верхнему краю */
+    vertical-align: top; 
 }
 
 
