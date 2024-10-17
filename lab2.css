@@ -1,0 +1,36 @@
+body {
+    background-color: rosybrown;
+    margin: 0; /* Убираем отступы */
+}
+
+.content {
+    display: flex; 
+    margin: 20px;
+}
+
+.content-left {
+    width: 60%; /* Ширина левой части */
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.content-right {
+    width: 30%; /* Ширина правой части */
+    display: inline-block;
+    vertical-align: top; /* Выравнивание элементов по верхнему краю */
+}
+
+
+.profile-image {
+    width: 100%; 
+    height: auto;
+    border-radius: 8px;
+}
+
+.music-image {
+    width: 30%;
+    border-radius: 8px;
+    margin-top: 10px;
+}
